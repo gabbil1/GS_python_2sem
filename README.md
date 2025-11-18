@@ -31,30 +31,7 @@ O sistema é uma aplicação *CLI (linha de comando)* que:
 
 ---
 
-## 2. Conexão com o desafio proposto no PDF
-
-De acordo com a descrição do desafio da GS:
-
-- É necessário *desenvolver um sistema em Python orientado a objetos*;
-- O sistema deve *organizar e analisar perfis profissionais do futuro*;
-- Deve utilizar *listas, tuplas e/ou dicionários* para representar competências técnicas e comportamentais;
-- A aplicação deve *gerar recomendações personalizadas* de:
-  - carreiras,
-  - trilhas de aprendizado,
-  - áreas de aprimoramento;
-- A proposta deve *conectar lógica de programação e automação* ao *desenvolvimento humano e profissional*.
-
-Este projeto atende a esses pontos da seguinte forma:
-
-1. Usa *POO* com as classes Perfil, Carreira e RecomendadorCarreira;
-2. Representa competências e pesos usando *dicionários* e *listas*;
-3. Implementa uma *lógica de pontuação* para comparar perfil x carreira;
-4. Gera recomendações de carreira, trilhas e sugestões de desenvolvimento;
-5. Mostra como *lógica de programação + estruturas de dados + condicional* podem ser usadas para orientar o desenvolvimento profissional para o futuro do trabalho.
-
----
-
-## 3. Como a análise do perfil funciona (passo a passo)
+## 2. Como a análise do perfil funciona (passo a passo)
 
 A análise do perfil segue uma lógica *totalmente baseada em dados numéricos*, não apenas no texto digitado pelo usuário. O processo é:
 
@@ -170,7 +147,7 @@ A análise do perfil segue uma lógica *totalmente baseada em dados numéricos*,
 ## 4. Tecnologias, conceitos e requisitos atendidos
 
 - *Linguagem:*  
-  - Python 3
+  - Python 
 
 - *Paradigma:*  
   - Programação Orientada a Objetos (POO)
@@ -209,4 +186,5 @@ GS_python_2sem/
 ├─ models.py        # Classes Perfil e Carreira (modelo de dados)
 ├─ data.py          # "Banco de dados" em memória com carreiras do futuro
 ├─ recommender.py   # Lógica de recomendação (RecomendadorCarreira)
+
 └─ README.md        # Documentação do projeto
